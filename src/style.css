@@ -1,0 +1,25 @@
+.selectable-cell  {
+  width: 100%;
+  height: 20px;
+  background: #dde3ff;
+  border-radius: 5px;
+}
+
+.selectable-cell:hover  {
+  background: #ff9d96;
+}
+
+.selected-cell {
+  width: 100%;
+  height: 20px;
+  background: #8297ff;
+  border-radius: 5px;
+}
+
+.disabled-cell {
+  width: 100%;
+  height: 20px;
+  background: #cacccf;
+  border-radius: 5px;
+  font-weight: bold;
+}
